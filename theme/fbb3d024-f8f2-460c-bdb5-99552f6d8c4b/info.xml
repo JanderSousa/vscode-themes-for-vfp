@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData>
+	<crsextinstall>
+		<publisherid>fbb3d024-f8f2-460c-bdb5-99552f6d8c4b</publisherid>
+		<displayname>Dracula Official</displayname>
+		<publisherdisplayname>Dracula Theme</publisherdisplayname>
+		<shortdescription>Official Dracula Theme. A dark theme for many editors, shells, and more.</shortdescription>
+		<filemanifest>https://dracula-theme.gallerycdn.vsassets.io/extensions/dracula-theme/theme-dracula/2.18.1/1571153077070/Microsoft.VisualStudio.Code.Manifest</filemanifest>
+		<filedetails>https://dracula-theme.gallerycdn.vsassets.io/extensions/dracula-theme/theme-dracula/2.18.1/1571153077070/Microsoft.VisualStudio.Services.Content.Details</filedetails>
+	</crsextinstall>
+</VFPData>

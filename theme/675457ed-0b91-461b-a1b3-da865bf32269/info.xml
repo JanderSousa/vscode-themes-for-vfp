@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData>
+	<crsextinstall>
+		<publisherid>675457ed-0b91-461b-a1b3-da865bf32269</publisherid>
+		<displayname>Flat UI</displayname>
+		<publisherdisplayname>Kaiyuan Liu</publisherdisplayname>
+		<shortdescription>A flat style theme for vscode</shortdescription>
+		<filemanifest>https://lkytal.gallerycdn.vsassets.io/extensions/lkytal/flatui/1.4.9/1543358291795/Microsoft.VisualStudio.Code.Manifest</filemanifest>
+		<filedetails>https://lkytal.gallerycdn.vsassets.io/extensions/lkytal/flatui/1.4.9/1543358291795/Microsoft.VisualStudio.Services.Content.Details</filedetails>
+	</crsextinstall>
+</VFPData>

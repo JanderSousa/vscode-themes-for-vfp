@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData>
+	<crsextinstall>
+		<publisherid>8fd32a64-6d85-4818-ac27-a0a61ee9f612</publisherid>
+		<displayname>Dainty</displayname>
+		<publisherdisplayname>Alexander Teinum</publisherdisplayname>
+		<shortdescription>Streamlined versions of popular VS Code themes</shortdescription>
+		<filemanifest>https://alexanderte.gallerycdn.vsassets.io/extensions/alexanderte/dainty-vscode/1.1.22/1555870613534/Microsoft.VisualStudio.Code.Manifest</filemanifest>
+		<filedetails>https://alexanderte.gallerycdn.vsassets.io/extensions/alexanderte/dainty-vscode/1.1.22/1555870613534/Microsoft.VisualStudio.Services.Content.Details</filedetails>
+	</crsextinstall>
+</VFPData>

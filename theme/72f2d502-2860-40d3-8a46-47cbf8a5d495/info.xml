@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData>
+	<crsextinstall>
+		<publisherid>72f2d502-2860-40d3-8a46-47cbf8a5d495</publisherid>
+		<displayname>Dracula At Night</displayname>
+		<publisherdisplayname>bceskavich</publisherdisplayname>
+		<shortdescription>Dracula At Night — A Dracula fork, with a darker flavor</shortdescription>
+		<filemanifest>https://bceskavich.gallerycdn.vsassets.io/extensions/bceskavich/theme-dracula-at-night/2.6.0/1574610596951/Microsoft.VisualStudio.Code.Manifest</filemanifest>
+		<filedetails>https://bceskavich.gallerycdn.vsassets.io/extensions/bceskavich/theme-dracula-at-night/2.6.0/1574610596951/Microsoft.VisualStudio.Services.Content.Details</filedetails>
+	</crsextinstall>
+</VFPData>
