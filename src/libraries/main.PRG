@@ -1,7 +1,6 @@
 #DEFINE URL_SEARCH "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
 
-
-do declarelibs 
+do declarelibraries 
 
 with createobject("Main")
 
@@ -21,6 +20,7 @@ define class Main as Custom
 	oWsh = .null.
 	oTheme = .null.
 	
+	cDirHome = sys(5) + sys(2003)
 	cDirDownload = sys(5) + sys(2003) + "\download"
 	cDirTheme = sys(5) + sys(2003) + "\theme"
 	nPageSize = 30
@@ -124,7 +124,7 @@ define class Main as Custom
 	
 	procedure setTheme
 		lparameters cPublisherId, cFileJson
-
+		
 		cPublisherId = alltrim(cPublisherId)
 		
 		if empty(cFileJson)
@@ -132,7 +132,7 @@ define class Main as Custom
 		endif 
 		
 		this.oTheme.setTheme(addbs(cPublisherId) + cFileJson)
-		
+
 	endproc 
 	
 	procedure getJson

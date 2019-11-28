@@ -2,13 +2,10 @@
 #DEFINE VFP_OPTIONS_KEY2	"\Options"
 #DEFINE HKEY_CURRENT_USER	-2147483647  && BITSET(0,31)+1
 
-do declareLibs
-
-**retu
+do declarelibraries 
 
 with createobject("Theme")
-	.setTheme("fbb3d024-f8f2-460c-bdb5-99552f6d8c4b\Dracula")
-**	.setTheme("1mm-themes-dracula")
+	.setTheme("1a680e61-b64e-4eff-bbbb-2085b0618f52\onedark")
 endwith
 
 return 
@@ -17,7 +14,8 @@ define class theme as custom
 
 	oJson = .null.
 	oColor = .null.
-
+	
+	cDirHome = sys(5) + sys(2003) 
 	cPathTheme = sys(5) + sys(2003) + "\theme"
 	dimension aEditorColors[1, 2]
 
@@ -57,7 +55,7 @@ define class theme as custom
 		this.addInArray("EditorNormalColor", cColorToRegister)
 		this.addInArray("EditorOperatorColor", cColorToRegister)
 		this.addInArray("EditorVariableColor", cColorToRegister)
-		this.addInArray("EditorStringolor", cColorToRegister)
+		this.addInArray("EditorStringColor", cColorToRegister)
 		this.addInArray("EditorCommentColor", cColorToRegister)
 		this.addInArray("EditorKeywordColor", cColorToRegister)
 		this.addInArray("EditorConstantColor", cColorToRegister)
@@ -114,14 +112,17 @@ define class theme as custom
 				endif
 			endif
 		next
-
+		
 		this.register()
 		this.update()
 	endproc
 
 	procedure update
 		this.setScreenColors()
+
 		sys(3056)
+
+		cd (this.cDirHome)
 	endproc
 
 	procedure getColors
@@ -172,16 +173,17 @@ define class theme as custom
 	endproc
 
 	procedure register
+
 		local oRegApi
 		local i
 		local cRegKey
-
+		
 		oRegApi = newobject("Registry", home() + "FFC\Registry.VCX")
 
 		for i=1 to alen(this.aEditorColors, 1)
 			oRegApi.SetRegKey(this.aEditorColors[i, 1], this.aEditorColors[i, 2], this.cVFPOptPath, HKEY_CURRENT_USER, .t.)
 		endfor
-
+	
 		return .t.
 
 	endproc
@@ -235,16 +237,5 @@ define class theme as custom
 		_screen.backcolor = rgb(&cBackColor)
 
 	endfunc
-	
-	procedure checkInternetConnection
-		Declare SHORT InternetGetConnectedState IN wininet;
-			INTEGER @ pdwFlags,;
-			INTEGER   dwReserved	
-			
-		Local nFlags
-		nFlags = 0	
-		
-		return InternetGetConnectedState(@nFlags, 0) = 1
-	endproc 
 
 enddefine

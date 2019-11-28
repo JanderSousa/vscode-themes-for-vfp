@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData>
+	<crsextinstall>
+		<publisherid>8ae75bda-ec22-4a17-9340-abf1a20beca9</publisherid>
+		<displayname>One Dark Pro</displayname>
+		<publisherdisplayname>binaryify</publisherdisplayname>
+		<shortdescription>Atom's iconic One Dark theme for Visual Studio Code</shortdescription>
+		<filemanifest>https://zhuangtongfa.gallerycdn.vsassets.io/extensions/zhuangtongfa/material-theme/3.1.2/1574671485103/Microsoft.VisualStudio.Code.Manifest</filemanifest>
+		<filedetails>https://zhuangtongfa.gallerycdn.vsassets.io/extensions/zhuangtongfa/material-theme/3.1.2/1574671485103/Microsoft.VisualStudio.Services.Content.Details</filedetails>
+	</crsextinstall>
+</VFPData>

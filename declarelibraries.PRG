@@ -3,15 +3,17 @@ cAllPath = ""
 
 SET TALK OFF
 
-
 cRoot = sys(5) + sys(2003)
 
 set path to cRoot 
 
 loadPath("", addbs(cRoot) + "SRC", @cAllPath)
+
 setProc("", addbs(cRoot) + "SRC\LIBRARIES")
 cAllPath = strtran(cAllPath, addbs(cRoot) , "")
-Set Path to (cAllPath)
+
+Set Path to
+Set Path to (cAllPath) additive 
 
 function loadPath
 	lparameters cRoot, cDir, cAllPath

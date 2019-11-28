@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData>
+	<crsextinstall>
+		<publisherid>cdd141d4-d1df-460e-8f09-f014186872d0</publisherid>
+		<displayname>Dracula Italics Turbo</displayname>
+		<publisherdisplayname>Florian Duros</publisherdisplayname>
+		<shortdescription>Forked version of dracula enhanced with italic keywords</shortdescription>
+		<filemanifest>https://florianduros.gallerycdn.vsassets.io/extensions/florianduros/theme-dracula-italics-turbo/1.0.2/1568881853620/Microsoft.VisualStudio.Code.Manifest</filemanifest>
+		<filedetails>https://florianduros.gallerycdn.vsassets.io/extensions/florianduros/theme-dracula-italics-turbo/1.0.2/1568881853620/Microsoft.VisualStudio.Services.Content.Details</filedetails>
+	</crsextinstall>
+</VFPData>
