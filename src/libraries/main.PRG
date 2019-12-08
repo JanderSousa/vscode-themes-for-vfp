@@ -1,110 +1,143 @@
+*!*	.                                                                                              ;c                                                     
+*!*	                                                                                              ;lC.                                                    
+*!*	                                                                                            cA3i3Z                                                    
+*!*	                                                z$$RZz:                                    .@TziiZc                                                   
+*!*	                                              30$RRRDD$0Qfl;.                              @fcTzlT5i;                                                 
+*!*	                                           .Z$DROO6O6GOAAgD$$0Owc                         ;@;Tzlzizo60O;                                              
+*!*	                                         .f$DAG6OfO6UfOfOUOUAAg$$                         0@;ciczccczcoAU.                                            
+*!*	                                       ;6$gAUG6UfU6OfOfUfU6OfO6QR                         RS;ccccc;cczcclOc                                           
+*!*	         .T,                         ;R$DOG6O6OfUfUfUfO6OfU6UfURR                         S3ccccc;c;cczcccZc                                      ::  
+*!*	     ;TUg$$$Rl.                    cA$RAUOfU6U6O6O6OfUfU6UfUfU6QA                         ;Zcc;c;c;;;;czcccI;;;;,;:.                    .,;cclIoo55G. 
+*!*	    .@$RROAGQ0$Uc                zD0gOGfUfUfGUARgRG6UfU6OfUfU6UAR                          Tl;c;;;;;;;;;cccciTlTlI3355Zi;         :;cT335Z53oICilcoS  
+*!*	     $AO6GUROAGgD$S;           ID$AA6O6OfO6AGD0gc:RGfO6OfUfU6OfRR                          :Ic;;;;;;;;,;,;;;;c;c;c;;;;c3fR6; .;Tio33llTizlTiTizTcl$,  
+*!*	     0RfOOOS0RAOAAD$0I.     .3$0ROO6O6O6GGD005,   DOUfUfU6UfOfORR                           zz;;;;;;;;;;;;;;;;;;;::;Ui;;;;CSiiIcccccccccTcTzicTcI@;   
+*!*	     $GO6Ro :A0DOGOGA0$Rc  S$0GG6U6O6GOgD$S;      0A6UfUfO6UfU6QA                           .I;;;;;;;;;;;;;;;;;,.zO$Uc,;;c;;;;;;;;;c;cccczczczcO@;    
+*!*	     0R6ORU   ,6$gRUO6AR0gDgAUOfU6GORg$Oz         $GOfUfU6UfOfUAR                            i;,;;;;;;;;;,;;;.:TRGl::,;,;,;;;;;;;;c;ccc;cczccz$0      
+*!*	     $GU6Q6     .SgQUOfGUAUO6OfOfGA0RC            0R6UfUfU6UfU6RA                          .cc,;,;;;;;;;;;;;,IRO;..;;;;;;;;;;;;;;;;c;c;ccc;zO$i       
+*!*	     0R6ORO        iR6UfUfUfO6UfUGC               $OUfUfOfOfUfORR                         Tl;;:.;,;;;;;;;;;,5R;.,,;;;;;;;;;;;;;;;;;;;;cccTOQ5         
+*!*	     $GUUQU       :SOO6U6OfU6O6O6Gwc              DA6OfU6OfU6UfRA                       :Ci;.;@; ;;;;;;;;;;;,::;;;;;;;;;;;;;;;;;;;;;czi56Uc           
+*!*	     0A6GRO     TQ$AO6OUAARUO6OfO6AQ$Az           $GOfUfOfUfOfURR                       5Tc,.z@@.:;;;;;;;;;;;,;;;;;;;;;;;;;;;;;;;;ccziT;.             
+*!*	     $GO6QS   z0DQOGUAR00GO$RAUOfU6OGQ0$Uc        DRfU6U6U6U6O6QA                       lzc; $@@.:;;;;,;::...,,;;;;;;;;;;;;;;;,;ccccI;                
+*!*	     0R6OAZ TD$AAOGAD00C:  ;R0DGOfO6O6GGg0$5;     $OOfO6UfUfO6ORR                        ;c;: fR.,;;,..  .;cUIc;;;;;;;;;;;;;;;;;cccco.                
+*!*	     $GU6GURgRGGADD$5;       ;U$gRUOfUfOUAAD0D3:  QAfUfUfU6UfU6RA                        ;;c,:.:,;;;;o$@@@@@g;,;;;;;,,,;;;;;;;;c;ccii                 
+*!*	     $QUOUGORGQD$Oc            .U00GG6U6U6OUGR00UcRUO6OfUfUfUfURR                        S0c;;;,;,cciT6Q0UC:.:;;;;;;;C;,;;;;;;;;ccci,                 
+*!*	     $$$QRGRg$Rl                 .5$gRUG6U6U6OUAARUOfU6UfU6UfUfQR                  .,,cORRc,,;;;;;;;::     .:;,;,;;;.$,;,;;;;;;ccczc                  
+*!*	      .cSR$DZ.                      30$AGUUfUfU6OfO6O6U6UfUfU6URR                 @@@@;;,.,,;;;;;,;,;;;,;,,::.:....  $;:;;;;;;c;cTz                   
+*!*	                                      i$0QUO6O6UfUfOfUfOfO6UfU6RR                 @@@O.,,;,;;;,;,,.,;cTloffUOgAGGQUAS@;:,;;;;cccTc                    
+*!*	                                        zR$RAUU6UfOfU6U6OfOfOUGRg                  i3.;;;;,::.,,;cCoc;;;,.,:;;ccTC5wU6;:;;;;ccTlc                     
+*!*	                                          ;R$gOGfUfO6O6GUGGRR0D$0                    .;TCOGg00RggQ0$I.,ccz;;,,:,::.. .:;;c;ccIi,                      
+*!*	                                            ;O$QROGUGGRRD0$0R3c:                           .,.          .;icc,;;;,;,;;c;ccziC;                        
+*!*	                                              :U$$g00$gOC;.                                               .czc,;,;;;;c;ccIlc                          
+*!*	                                                .wOi;                                                      .zz;,;cc;cclZw;                            
+*!*	                                                                                                            czcccCZOGRZc                              
+*!*	                                                                                                            ;zllic;. 
+
+
+
+
+
 #DEFINE URL_SEARCH "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
 
 do declarelibraries 
 
-with createobject("Main")
-
-	.getAllThemesInstalledFromId("f85e1d5d-e4e2-4428-9363-4084e04f8439", "lixo")
-	retu
-	.setTheme("8fd32a64-6d85-4818-ac27-a0a61ee9f612")
-	retu
+WITH Createobject("Main")
 	.setTheme("fbb3d024-f8f2-460c-bdb5-99552f6d8c4b", "Dracula.json")
-endwith 	
+ENDWITH 	
 
 
 
-define class Main as Custom 
+DEFINE CLASS Main As Custom 
 	
-	oHTTP = .null.
-	oJson = .null.
-	oWsh = .null.
-	oTheme = .null.
+	oHTTP 	= .Null.
+	oJson 	= .Null.
+	oWsh 	= .Null.
+	oTheme 	= .Null.
 	
-	cDirHome = sys(5) + sys(2003)
-	cDirDownload = sys(5) + sys(2003) + "\download"
-	cDirTheme = sys(5) + sys(2003) + "\theme"
-	nPageSize = 30
+	cDirHome 		= Sys(5) + Sys(2003)
+	cDirDownload 	= Sys(5) + Sys(2003) + "\download"
+	cDirTheme 		= Sys(5) + Sys(2003) + "\theme"
+	nPageSize 		= 30
 	
 	nDataSessionId = 1
 	
-	procedure init 
-		lparameters nDataSessionId
+	PROCEDURE Init 
+		LPARAMETERS nDataSessionId
 		
-		this.setDataSession(nDataSessionId)
+		This.setDataSession(nDataSessionId)
 		
 		DECLARE Sleep IN Win32API INTEGER
 		
-		this.oHTTP = createobject("Http")
-		this.oJson = createobject("Json")
-		this.oTheme = createobject("theme")
+		This.oHTTP = Createobject("Http")
+		This.oJson = Createobject("Json")
+		This.oTheme = Createobject("theme")
 		
-	endproc 
+	ENDPROC  
 	
-	procedure setDataSession(nDataSessionId)
-		if !empty(nDataSessionId)
-			this.nDataSessionId  = nDataSessionId
-		endif 	
-		set datasession to (this.nDataSessionId)
-	endproc 
+	PROCEDURE SetDataSession(nDataSessionId)
+		IF !Empty(nDataSessionId)
+			This.nDataSessionId  = nDataSessionId
+		ENDIF 	
+		SET DATASESSION TO (this.nDataSessionId)
+	ENDPROC 
 	
-	procedure getAllThemesInstalledFromId
-		lparameters cPublisherId, cAlias
+	PROCEDURE GetAllThemesInstalledFromId
+		LPARAMETERS cPublisherId, cAlias
 		
-		local aFiles[1]
+		LOCAL aFiles[1], i
 		
-		create cursor (cAlias) (PublisherId c(40), File c(50))
+		CREATE CURSOR (cAlias) (PublisherId c(40), File c(50))
 		
-		if this.getJson(cPublisherId, @aFiles)
+		IF This.getJson(cPublisherId, @aFiles)
 			
-			select (cAlias)
-			for i=1 to alen(aFiles, 1)	
-				append blank 
-				replace PublisherId with cPublisherId,;
-						File with juststem(aFiles[i, 1])
-			next 
-		else
-			return .F.	
-		endif 
+			SELECT (cAlias)
+			FOR i=1 TO Alen(aFiles, 1)	
+				APPEND BLANK 
+				REPLACE PublisherId WITH cPublisherId,;
+						File 		WITH Juststem(aFiles[i, 1])
+			NEXT  
+		ELSE 
+			RETURN .F.	
+		ENDIF  
 		
-	endproc 
+	ENDPROC 
 	
-	procedure getAllThemesInstalled
-		lparameters cAlias
+	PROCEDURE GetAllThemesInstalled
+		LPARAMETERS cAlias
 		
-		local aDirectory[1], cName, cType, cFullName, cDir, nDir, i    
+		LOCAL aDirectory[1], cName, cType, cFullName, cDir, nDir, i    
 		
-		this.dataStruct(cAlias)
+		This.dataStruct(cAlias)
 		
-		cDir = addbs(this.cDirTheme)
-		nDir = adir(aDirectory, addbs(this.cDirTheme) + "*.*", "D")
+		cDir = Addbs(This.cDirTheme)
+		nDir = Adir(aDirectory, Addbs(This.cDirTheme) + "*.*", "D")
 		
-		for i=1 to nDir
+		FOR i=1 TO nDir
 			cName = aDirectory[i, 1]
 			cType = aDirectory[i, 5]
-			cFullName = addbs(cDir + cName) + "info.xml"
+			cFullName = Addbs(cDir + cName) + "info.xml"
 			
-			if "D" $ cType and cName != "."
+			IF "D" $ cType and cName != "."
 				
-				if file(cFullName)
-					xmltocursor(filetostr(cFullName), "tmpInfo")
-					select (cAlias)
-					append from dbf("tmpInfo")
-				endif 
+				IF File(cFullName)
+					XmlToCursor(Filetostr(cFullName), "tmpInfo")
+					SELECT (cAlias)
+					APPEND FROM Dbf("tmpInfo")
+				ENDIF 
 					
-			endif 
-		next 
+			ENDIF 
+		NEXT 
 		
-		use in select("tmpInfo")
-	endproc 
+		USE IN Select("tmpInfo")
+	ENDPROC  
 	
-	procedure searchTheme
-		lparameters cSearch, nPage
+	PROCEDURE SearchTheme
+		LPARAMETERS cSearch, nPage
 		
-		local cResponse, cBody
+		LOCAL cResponse, cBody
 
-		if empty(cSearch)
-			return .null.
-		endif 
+		IF Empty(cSearch)
+			RETURN .null.
+		ENDIF 
 		
 		cBody = this.resolveBody(cSearch, nPage)
 		

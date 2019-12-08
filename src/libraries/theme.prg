@@ -2,29 +2,29 @@
 #DEFINE VFP_OPTIONS_KEY2	"\Options"
 #DEFINE HKEY_CURRENT_USER	-2147483647  && BITSET(0,31)+1
 
-do declarelibraries 
+do declarelibraries
 
 with createobject("Theme")
-	.setTheme("1a680e61-b64e-4eff-bbbb-2085b0618f52\onedark")
+	.setTheme("8fd32a64-6d85-4818-ac27-a0a61ee9f612\dracula")
 endwith
 
-return 
+return
 
-define class theme as custom
+DEFINE CLASS Theme as Custom
 
 	oJson = .null.
 	oColor = .null.
-	
-	cDirHome = sys(5) + sys(2003) 
-	cPathTheme = sys(5) + sys(2003) + "\theme"
-	dimension aEditorColors[1, 2]
+
+	cDirHome = Sys(5) + sys(2003)
+	cPathTheme = Sys(5) + sys(2003) + "\theme"
+	DIMENSION aEditorColors[1, 2]
 
 	cVFPOptPath = VFP_OPTIONS_KEY1 + _vfp.version + VFP_OPTIONS_KEY2
-	
+
 	procedure init
 		this.oJson = createobject("Json")
 		this.oColor = createobject("Color")
-	endproc 
+	endproc
 
 	procedure setTheme
 		lparameters cFileTheme
@@ -59,13 +59,13 @@ define class theme as custom
 		this.addInArray("EditorCommentColor", cColorToRegister)
 		this.addInArray("EditorKeywordColor", cColorToRegister)
 		this.addInArray("EditorConstantColor", cColorToRegister)
-		
+
 		oTokenColors = oJsonDecoded.get("tokenColors", .null.)
-		
+
 		if isnull(oTokenColors) or vartype(oTokenColors) != "O"
 			return .F.
-		endif 
-		
+		endif
+
 		for each oToken in oTokenColors.array
 			cForeGround = ""
 			uScope = oToken.get("scope")
@@ -107,12 +107,12 @@ define class theme as custom
 								this.addInArray(cEntryStyle, cStyle)
 							endif
 						next
-					next					
+					next
 
 				endif
 			endif
 		next
-		
+
 		this.register()
 		this.update()
 	endproc
@@ -177,13 +177,13 @@ define class theme as custom
 		local oRegApi
 		local i
 		local cRegKey
-		
+
 		oRegApi = newobject("Registry", home() + "FFC\Registry.VCX")
 
 		for i=1 to alen(this.aEditorColors, 1)
 			oRegApi.SetRegKey(this.aEditorColors[i, 1], this.aEditorColors[i, 2], this.cVFPOptPath, HKEY_CURRENT_USER, .t.)
 		endfor
-	
+
 		return .t.
 
 	endproc
