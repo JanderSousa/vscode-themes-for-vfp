@@ -1,11 +1,7 @@
-# [VFP] Themes
+# VFP Themes
+Download Visual Studio Code Themes and Install in Visual FoxPro
 
-## Download Visual Studio Code Themes and Install in Visual FoxPro
-
-<p align="center">
-  <img src="demo/Themes.PNG" width=800><br/>
-  <img src="demo/Screen.PNG" width=800><br/>
-</p>
+![Themes](https://github.com/JanderSousa/vscode-themes-for-vfp/blob/master/demo/Themes.gif)
 
 ## Requirements
 
