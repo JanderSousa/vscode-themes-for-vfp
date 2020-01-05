@@ -1,41 +1,3 @@
-*!*	.                                                                                              ;c                                                     
-*!*	                                                                                              ;lC.                                                    
-*!*	                                                                                            cA3i3Z                                                    
-*!*	                                                z$$RZz:                                    .@TziiZc                                                   
-*!*	                                              30$RRRDD$0Qfl;.                              @fcTzlT5i;                                                 
-*!*	                                           .Z$DROO6O6GOAAgD$$0Owc                         ;@;Tzlzizo60O;                                              
-*!*	                                         .f$DAG6OfO6UfOfOUOUAAg$$                         0@;ciczccczcoAU.                                            
-*!*	                                       ;6$gAUG6UfU6OfOfUfU6OfO6QR                         RS;ccccc;cczcclOc                                           
-*!*	         .T,                         ;R$DOG6O6OfUfUfUfO6OfU6UfURR                         S3ccccc;c;cczcccZc                                      ::  
-*!*	     ;TUg$$$Rl.                    cA$RAUOfU6U6O6O6OfUfU6UfUfU6QA                         ;Zcc;c;c;;;;czcccI;;;;,;:.                    .,;cclIoo55G. 
-*!*	    .@$RROAGQ0$Uc                zD0gOGfUfUfGUARgRG6UfU6OfUfU6UAR                          Tl;c;;;;;;;;;cccciTlTlI3355Zi;         :;cT335Z53oICilcoS  
-*!*	     $AO6GUROAGgD$S;           ID$AA6O6OfO6AGD0gc:RGfO6OfUfU6OfRR                          :Ic;;;;;;;;,;,;;;;c;c;c;;;;c3fR6; .;Tio33llTizlTiTizTcl$,  
-*!*	     0RfOOOS0RAOAAD$0I.     .3$0ROO6O6O6GGD005,   DOUfUfU6UfOfORR                           zz;;;;;;;;;;;;;;;;;;;::;Ui;;;;CSiiIcccccccccTcTzicTcI@;   
-*!*	     $GO6Ro :A0DOGOGA0$Rc  S$0GG6U6O6GOgD$S;      0A6UfUfO6UfU6QA                           .I;;;;;;;;;;;;;;;;;,.zO$Uc,;;c;;;;;;;;;c;cccczczczcO@;    
-*!*	     0R6ORU   ,6$gRUO6AR0gDgAUOfU6GORg$Oz         $GOfUfU6UfOfUAR                            i;,;;;;;;;;;,;;;.:TRGl::,;,;,;;;;;;;;c;ccc;cczccz$0      
-*!*	     $GU6Q6     .SgQUOfGUAUO6OfOfGA0RC            0R6UfUfU6UfU6RA                          .cc,;,;;;;;;;;;;;,IRO;..;;;;;;;;;;;;;;;;c;c;ccc;zO$i       
-*!*	     0R6ORO        iR6UfUfUfO6UfUGC               $OUfUfOfOfUfORR                         Tl;;:.;,;;;;;;;;;,5R;.,,;;;;;;;;;;;;;;;;;;;;cccTOQ5         
-*!*	     $GUUQU       :SOO6U6OfU6O6O6Gwc              DA6OfU6OfU6UfRA                       :Ci;.;@; ;;;;;;;;;;;,::;;;;;;;;;;;;;;;;;;;;;czi56Uc           
-*!*	     0A6GRO     TQ$AO6OUAARUO6OfO6AQ$Az           $GOfUfOfUfOfURR                       5Tc,.z@@.:;;;;;;;;;;;,;;;;;;;;;;;;;;;;;;;;ccziT;.             
-*!*	     $GO6QS   z0DQOGUAR00GO$RAUOfU6OGQ0$Uc        DRfU6U6U6U6O6QA                       lzc; $@@.:;;;;,;::...,,;;;;;;;;;;;;;;;,;ccccI;                
-*!*	     0R6OAZ TD$AAOGAD00C:  ;R0DGOfO6O6GGg0$5;     $OOfO6UfUfO6ORR                        ;c;: fR.,;;,..  .;cUIc;;;;;;;;;;;;;;;;;cccco.                
-*!*	     $GU6GURgRGGADD$5;       ;U$gRUOfUfOUAAD0D3:  QAfUfUfU6UfU6RA                        ;;c,:.:,;;;;o$@@@@@g;,;;;;;,,,;;;;;;;;c;ccii                 
-*!*	     $QUOUGORGQD$Oc            .U00GG6U6U6OUGR00UcRUO6OfUfUfUfURR                        S0c;;;,;,cciT6Q0UC:.:;;;;;;;C;,;;;;;;;;ccci,                 
-*!*	     $$$QRGRg$Rl                 .5$gRUG6U6U6OUAARUOfU6UfU6UfUfQR                  .,,cORRc,,;;;;;;;::     .:;,;,;;;.$,;,;;;;;;ccczc                  
-*!*	      .cSR$DZ.                      30$AGUUfUfU6OfO6O6U6UfUfU6URR                 @@@@;;,.,,;;;;;,;,;;;,;,,::.:....  $;:;;;;;;c;cTz                   
-*!*	                                      i$0QUO6O6UfUfOfUfOfO6UfU6RR                 @@@O.,,;,;;;,;,,.,;cTloffUOgAGGQUAS@;:,;;;;cccTc                    
-*!*	                                        zR$RAUU6UfOfU6U6OfOfOUGRg                  i3.;;;;,::.,,;cCoc;;;,.,:;;ccTC5wU6;:;;;;ccTlc                     
-*!*	                                          ;R$gOGfUfO6O6GUGGRR0D$0                    .;TCOGg00RggQ0$I.,ccz;;,,:,::.. .:;;c;ccIi,                      
-*!*	                                            ;O$QROGUGGRRD0$0R3c:                           .,.          .;icc,;;;,;,;;c;ccziC;                        
-*!*	                                              :U$$g00$gOC;.                                               .czc,;,;;;;c;ccIlc                          
-*!*	                                                .wOi;                                                      .zz;,;cc;cclZw;                            
-*!*	                                                                                                            czcccCZOGRZc                              
-*!*	                                                                                                            ;zllic;. 
-
-
-
-
-
 #DEFINE URL_SEARCH "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
 
 do declarelibraries 
@@ -390,7 +352,8 @@ DEFINE CLASS Main As Custom
 
 		local cCurrentDirectory, lReturn, cCommand
 		cCurrentDirectory = sys(5) + sys(2003)
-
+		
+		Sleep(2000)
 		if file(cPath + cPathTheme)
 			return .T.
 		endif 
@@ -414,10 +377,10 @@ DEFINE CLASS Main As Custom
 							cCommand = "node build.js"
 						
 						case file("build.ts")	
-							cCommand = "node build.ts"
+							cCommand = "ts-node build.ts"
 					
 						case file(".\src\build.js")
-							cCommand = "ts-node .\src\build.js"
+							cCommand = "node .\src\build.js"
 							
 						case file(".\src\build.ts")
 							cCommand = "ts-node .\src\build.ts"						
@@ -429,6 +392,8 @@ DEFINE CLASS Main As Custom
 						if !directory(cFullPath)
 							mkdir (cFullPath)
 						endif 
+						
+						Wait cCommand window 
 							
 						lReturn = .Run(cCommand, 0, .T.) = 0
 					endif 
